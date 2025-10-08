@@ -1,12 +1,55 @@
-# React + Vite
+# 📝 Keeper App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern note-taking web application inspired by Google Keep — built using **React + Vite**.  
+It allows users to quickly create, view, and delete notes in a clean, minimal interface.  
+The app is responsive, intuitive, and perfect for organizing ideas on the go.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+- **Vercel Deployment:** [keeper-app-pi-steel.vercel.app](https://keeper-app-pi-steel.vercel.app)
+- **Netlify Deployment:** [keeper-app10.netlify.app](https://keeper-app10.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🗒️ **Add Notes:** Instantly create new notes with titles and descriptions.  
+- ❌ **Delete Notes:** Remove notes you no longer need.  
+- ⚡ **Dynamic Rendering:** Each note updates instantly without page reload.  
+- 🎨 **Responsive Design:** Works perfectly on desktop, tablet, and mobile.  
+- 💡 **Alerts for Empty Inputs:** Prevents adding empty notes using alert validation.  
+- 🧩 **Reusable Components:** Built with modular, component-based structure.  
+- 🧭 **Clean UI:** Simple, colorful layout for better readability and focus.
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | React.js (with Hooks & JSX) |
+| **Build Tool** | Vite |
+| **Styling** | Tailwind CSS / Bootstrap |
+| **Deployment** | Vercel & Netlify |
+
+---
+
+## 🏗️ Project Setup (Run Locally)
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-link>
+   cd keeper-app
+2. **Install dependencies**
+
+  npm install
+
+3. **Run the app**
+
+npm run dev
+Then open the local URL shown in your terminal (usually http://localhost:5173/).
+
+4. **Build for production**
+npm run build
